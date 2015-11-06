@@ -1,0 +1,56 @@
+
+
+nav {
+  position: fixed;
+  background-color: #FF6347;
+  text-align: right;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  z-index: 200;
+  border: 3px;
+  }
+
+nav ul li {
+  display: inline-block;
+}
+
+body {
+  padding-top: 40px;
+}
+
+header {
+  position: static;
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  text-align: center;
+  
+}
+article {
+  position: absolute;
+  background-color: orange;
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+
+}
+
+
+section {
+  width: 100%;
+}
+
+
+aside { 
+  width: 25%;
+  background-color: navy-blue;
+  position: relative;
+}
+
+footer {
+  position: relative;
+  height: 100px;
+}
