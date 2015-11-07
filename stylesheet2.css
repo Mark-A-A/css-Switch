@@ -29,10 +29,10 @@ header {
   padding-top: 60px
 }
 article {
-  position: absolute;
+  position: relative;
   background-color: orange;
-  height: 300px;
-  width: 300px;
+  height: auto;
+  width: auto;
   padding-top: 10px;
   padding-left: 10px;
 
@@ -40,7 +40,9 @@ article {
 
 
 section {
-  width: 100%;
+  position: relative;
+  width: auto;
+  height: auto;
 }
 
 
@@ -51,6 +53,10 @@ aside {
 }
 
 footer {
-  position: relative;
-  height: 100px;
+  position: absolute;
+  height: auto;
+  width: 100%;
+  text-align: right;
+  background-color: #FF6347;
+
 }
